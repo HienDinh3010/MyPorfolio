@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'MOMO - PAYMENT & FINANCE SUPER APP - ALL IN ONE',
+    description: "In this app, I contributed on building Walking with Momo, Heo Dat Momo, Giao Hoi Phat Giao (Buddha Donation)...",
+      image: '/images/momo.jpeg',
+      tags: ['Microservice', 'Vertx', 'GCP'],
+    source: 'https://play.google.com/store/apps/details?id=com.mservice.momotransfer&hl=en_US&gl=US',
+    visit: 'https://play.google.com/store/apps/details?id=com.mservice.momotransfer&hl=en_US&gl=US',
+    id: 0,
+  },
+  {
     title: 'Build My Personal Porfolio As My Business Card',
     description: "In this project, I build my personal porfolio using React and Next JS and then deploy website to Hostinger server",
       image: '/images/porfolio.png',
       tags: ['JavaScript', 'React', 'Next JS'],
     source: 'https://github.com/HienDinh3010/MyPorfolio',
     visit: 'hiendinh.tech',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Deploy A Dockerized App to AWS EC2',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['Docker', 'AWS'],
     source: 'https://github.com/HienDinh3010/Udemy-docker-and-kubernetes-deploy-to-AWS-EC2',
     visit: 'https://medium.com/@dnmhien3010/how-to-deploy-a-dockerized-app-to-aws-ec2-instance-fc1d689e5b63',
-    id: 1,
+    id: 2,
   }
   // ,
   // {
